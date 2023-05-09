@@ -3,10 +3,15 @@ Framework to build visual-oriented websites allowing 3D and 2D animations. Meant
 
 # TODO
 ## Features
-* Dynamic page transitions (AJAX / Taxi.js?)
-* Import/manage glsl files (#require, #pragma?)
-* 3D engines support (three.js)
-* Fast styling (SCSS support)
+### Core
 * Fast building (Pug templates?)
+* Fast styling (SCSS support)
+* Organized js classes
+* 3D engines support (three.js)
+* Import/manage glsl files (#require, #pragma?)
+
+# Nice to have's
+* Dynamic page transitions (AJAX / Taxi.js?)
 * Lazy loading for images
 * Fast first content visible (split js files?)
+* DOM-GL (sync between HTML DOM tree and WebGL)
