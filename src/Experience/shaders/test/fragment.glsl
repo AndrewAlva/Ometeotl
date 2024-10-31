@@ -246,10 +246,10 @@ void main()
     // float strength = 1.0 - abs(cnoise(vUv * 10.0));
 
     // // Pattern 49
-    // float strength = sin(cnoise(vUv * 10.0) * 20.0);
+    float strength = sin(cnoise(vUv * 10.0) * 20.0);
 
     // Pattern 50
-    float strength = step(0.9, sin(cnoise(vUv * 10.0) * 20.0));
+    // float strength = step(0.9, sin(cnoise(vUv * 10.0) * 20.0));
 
     // Final color
     vec3 blackColor = vec3(0.0);
@@ -258,5 +258,5 @@ void main()
 
     // gl_FragColor = vec4(vec3(strength), 1.0);
     gl_FragColor = vec4(mixedColor, 1.0);
-    gl_FragColor = vec4(vec3(vUv, 1.), 1.0);
+    // gl_FragColor = vec4(vec3(vUv, 1.), 1.0);
 }
