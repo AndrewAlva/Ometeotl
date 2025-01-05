@@ -8,6 +8,13 @@ const __dirname = '/';
 export default defineConfig({
     root: 'src/', // Sources files (typically where index.html is)
     publicDir: '../static/', // Path from "root" to static assets (files that are served as they are)
+    css: {
+        preprocessorOptions: {
+            scss: {
+                additionalData: '', // Optional for global imports
+            },
+        },
+    },
     server:
     {
         host: true, // Open to local network and display URL

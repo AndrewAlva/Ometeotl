@@ -19,6 +19,7 @@ Framework to build visual-oriented websites allowing 3D and 2D animations. Meant
 
 # Setup (borrowed from Three.js Journey)
 Download [Node.js](https://nodejs.org/en/download/).
+Make sure you use node version 20 or a bit higher.
 Run this followed commands:
 
 ``` bash

@@ -1,0 +1,17 @@
+@use "./src/styles/utils/_global.scss";
+
+body {
+    color: global.$primary-color;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
