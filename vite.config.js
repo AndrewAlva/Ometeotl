@@ -4,7 +4,7 @@ import restart from 'vite-plugin-restart'
 import glsl from 'vite-plugin-glsl'
 import pugPlugin from "vite-plugin-pug"
 const options = { pretty: true }
-const locals = { name: "Valentines-INHRTD" }
+const locals = { name: "Ometeotl" }
 
 const __dirname = '/';
 
