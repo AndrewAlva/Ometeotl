@@ -2,6 +2,9 @@ import { resolve } from 'path'
 import { defineConfig } from 'vite'
 import restart from 'vite-plugin-restart'
 import glsl from 'vite-plugin-glsl'
+import pugPlugin from "vite-plugin-pug"
+const options = { pretty: true }
+const locals = { name: "Valentines-INHRTD" }
 
 const __dirname = '/';
 
@@ -35,6 +38,7 @@ export default defineConfig({
     plugins:
     [
         restart({ restart: [ '../static/**', ] }), // Restart server on static file change
-        glsl()
+        glsl(),
+        pugPlugin(options, locals)
     ],
 })
